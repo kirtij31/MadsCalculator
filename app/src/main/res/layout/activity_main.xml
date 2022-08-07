@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ndroid="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/expression"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_history"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:text="@string/history"
+                android:onClick="history" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="@string/ac"
+                android:onClick="AllClear"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:text="@string/back"
+                android:onClick="Back"/>
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:text="@string/divide"
+                android:onClick="Divide"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_1"
+            android:onClick="one"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_2"
+            android:onClick="two"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_3"
+            android:onClick="three"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:text="@string/multiply"
+            android:onClick="multiplication"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_4"
+            android:onClick="four"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_5"
+            android:onClick="five"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_6"
+            android:onClick="six"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/add"
+            android:onClick="addition"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_7"
+            android:onClick="seven"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_8"
+            android:onClick="eight"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_9"
+            android:onClick="nine"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/subtract"
+            android:onClick="subtraction"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/dot"
+            android:onClick="decimal"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/_0"
+            android:onClick="zero"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:background="#FF9800"
+            android:text="@string/result"
+            android:onClick="Answer"/>
+    </LinearLayout></LinearLayout>
+
+</LinearLayout>
